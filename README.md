@@ -17,3 +17,8 @@ This repository is created to keep track of [Google IT Automation With Python](h
 4. [Troubleshooting and Debugging Techniques]()
 5. [Configuration Management and the Cloud]()
 6. [Automating Real-World Tasks with Python]()
+
+<br>
+
+## Credit
+* [Coursera - Google IT Automation with Python Professional Certificate](https://www.coursera.org/professional-certificates/google-it-automation#courses)  
