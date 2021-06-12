@@ -26,3 +26,6 @@ This repository is created to keep track of [Google IT Automation With Python](h
 <br>
 
 [![Back to profile](https://img.shields.io/badge/Back%20to-Kiam%20Boon's%20Profile-darkorange?style=flat-square)](https://github.com/kiamboon/Profile)
+
+---
+![Dino](https://raw.githubusercontent.com/wangningkai/wangningkai/master/assets/dino.gif)
