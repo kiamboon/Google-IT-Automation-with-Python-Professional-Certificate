@@ -13,7 +13,7 @@ This repository is created to keep track of [Google IT Automation With Python](h
 
 1. [Crash Course On Python](https://github.com/kiamboon/Google-IT-Automation-with-Python-Professional-Certificate/tree/main/1.%20Crash%20Course%20on%20Python)
 2. [Using Python to Interact with the Operating System](https://github.com/kiamboon/Google-IT-Automation-with-Python-Professional-Certificate/tree/main/2.%20Using%20Python%20to%20Interact%20with%20the%20Operating%20System)
-3. [Introduction to Git and GitHub]()
+3. [Introduction to Git and GitHub](https://github.com/kiamboon/Google-IT-Automation-with-Python-Professional-Certificate/tree/main/3.%20Introduction%20to%20Git%20and%20GitHub)
 4. [Troubleshooting and Debugging Techniques]()
 5. [Configuration Management and the Cloud]()
 6. [Automating Real-World Tasks with Python]()<br><br>
