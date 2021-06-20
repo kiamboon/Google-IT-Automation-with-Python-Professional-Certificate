@@ -1,0 +1,17 @@
+--- "3.1.2i disk_usage_original.py"	2021-06-20 17:52:39.855681200 +0800
++++ "3.1.2j disk_usage_fixed.py"	2021-06-20 18:17:12.753168200 +0800
+@@ -15,9 +15,9 @@
+     return True
+ 
+ # Check for at least 2 GB and 10% free
+-if not check_disk_usage("/", 2*3**10, 10):
++if not check_disk_usage("/", 2, 10):
+     print('ERROR: Not enough disk space')
+-    return 1
++    sys.exit(1)  # return 1 replaced by sys.exit(1)
+ 
+-print('Everything is ok')
+-return 0
+\ No newline at end of file
++print("Everything is ok")
++sys.exit(0)  # return 0 replaced by sys.exit(0)
