@@ -1,0 +1,186 @@
+Using username "student-04-3ca90ba882e4".
+Authenticating with public key "imported-openssh-key"
+Linux linux-instance 4.9.0-15-amd64 #1 SMP Debian 4.9.258-1 (2021-03-08) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+student-04-3ca90ba882e4@linux-instance:~$ sudo apt update
+Ign:1 http://deb.debian.org/debian stretch InRelease
+Get:2 http://security.debian.org stretch/updates InRelease [53.0 kB]
+Get:3 http://deb.debian.org/debian stretch-updates InRelease [93.6 kB]
+Get:4 http://deb.debian.org/debian stretch-backports InRelease [91.8 kB]
+Get:5 http://packages.cloud.google.com/apt cloud-sdk-stretch InRelease [6,779 B]
+Hit:6 http://deb.debian.org/debian stretch Release
+Get:7 http://packages.cloud.google.com/apt google-compute-engine-stretch-stable                                                                              InRelease [5,525 B]
+Get:8 http://packages.cloud.google.com/apt google-cloud-packages-archive-keyring                                                                             -stretch InRelease [5,555 B]
+Get:9 http://security.debian.org stretch/updates/main Sources [354 kB]
+Get:10 http://security.debian.org stretch/updates/main amd64 Packages [693 kB]
+Get:11 http://security.debian.org stretch/updates/main Translation-en [317 kB]
+Get:12 http://packages.cloud.google.com/apt cloud-sdk-stretch/main amd64 Package                                                                             s [169 kB]
+Get:14 http://packages.cloud.google.com/apt google-compute-engine-stretch-stable                                                                             /main amd64 Packages [1,827 B]
+Get:15 http://packages.cloud.google.com/apt google-cloud-packages-archive-keyrin                                                                             g-stretch/main amd64 Packages [396 B]
+Fetched 1,792 kB in 1s (1,691 kB/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+student-04-3ca90ba882e4@linux-instance:~$ sudo apt install git
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  git-man less libcurl3-gnutls liberror-perl libperl5.24 patch perl
+  perl-modules-5.24 rename rsync
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+  gitweb git-arch git-cvs git-mediawiki git-svn ed diffutils-doc perl-doc
+  libterm-readline-gnu-perl | libterm-readline-perl-perl make
+The following NEW packages will be installed:
+  git git-man less libcurl3-gnutls liberror-perl libperl5.24 patch perl
+  perl-modules-5.24 rename rsync
+0 upgraded, 11 newly installed, 0 to remove and 3 not upgraded.
+Need to get 13.0 MB of archives.
+After this operation, 73.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://deb.debian.org/debian stretch/main amd64 perl-modules-5.24 all 5.24                                                                             .1-3+deb9u7 [2,723 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 libcurl3-gnutls amd6                                                                             4 7.52.1-5+deb9u14 [296 kB]
+Get:3 http://deb.debian.org/debian stretch/main amd64 libperl5.24 amd64 5.24.1-3                                                                             +deb9u7 [3,527 kB]
+Get:4 http://deb.debian.org/debian stretch/main amd64 perl amd64 5.24.1-3+deb9u7                                                                              [218 kB]
+Get:5 http://deb.debian.org/debian stretch/main amd64 liberror-perl all 0.17024-                                                                             1 [26.9 kB]
+Get:6 http://deb.debian.org/debian stretch/main amd64 git-man all 1:2.11.0-3+deb                                                                             9u7 [1,436 kB]
+Get:7 http://deb.debian.org/debian stretch/main amd64 git amd64 1:2.11.0-3+deb9u                                                                             7 [4,170 kB]
+Get:8 http://deb.debian.org/debian stretch/main amd64 less amd64 481-2.1 [126 kB                                                                             ]
+Get:9 http://deb.debian.org/debian stretch/main amd64 patch amd64 2.7.5-1+deb9u2                                                                              [112 kB]
+Get:10 http://deb.debian.org/debian stretch/main amd64 rename all 0.20-4 [12.5 k                                                                             B]
+Get:11 http://deb.debian.org/debian stretch/main amd64 rsync amd64 3.1.2-1+deb9u                                                                             2 [393 kB]
+Fetched 13.0 MB in 0s (36.0 MB/s)
+Selecting previously unselected package perl-modules-5.24.
+(Reading database ... 45798 files and directories currently installed.)
+Preparing to unpack .../00-perl-modules-5.24_5.24.1-3+deb9u7_all.deb ...
+Unpacking perl-modules-5.24 (5.24.1-3+deb9u7) ...
+Selecting previously unselected package libperl5.24:amd64.
+Preparing to unpack .../01-libperl5.24_5.24.1-3+deb9u7_amd64.deb ...
+Unpacking libperl5.24:amd64 (5.24.1-3+deb9u7) ...
+Selecting previously unselected package perl.
+Preparing to unpack .../02-perl_5.24.1-3+deb9u7_amd64.deb ...
+Unpacking perl (5.24.1-3+deb9u7) ...
+Selecting previously unselected package libcurl3-gnutls:amd64.
+Preparing to unpack .../03-libcurl3-gnutls_7.52.1-5+deb9u14_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.52.1-5+deb9u14) ...
+Selecting previously unselected package liberror-perl.
+Preparing to unpack .../04-liberror-perl_0.17024-1_all.deb ...
+Unpacking liberror-perl (0.17024-1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../05-git-man_1%3a2.11.0-3+deb9u7_all.deb ...
+Unpacking git-man (1:2.11.0-3+deb9u7) ...
+Selecting previously unselected package git.
+Preparing to unpack .../06-git_1%3a2.11.0-3+deb9u7_amd64.deb ...
+Unpacking git (1:2.11.0-3+deb9u7) ...
+Selecting previously unselected package less.
+Preparing to unpack .../07-less_481-2.1_amd64.deb ...
+Unpacking less (481-2.1) ...
+Selecting previously unselected package patch.
+Preparing to unpack .../08-patch_2.7.5-1+deb9u2_amd64.deb ...
+Unpacking patch (2.7.5-1+deb9u2) ...
+Selecting previously unselected package rename.
+Preparing to unpack .../09-rename_0.20-4_all.deb ...
+Unpacking rename (0.20-4) ...
+Selecting previously unselected package rsync.
+Preparing to unpack .../10-rsync_3.1.2-1+deb9u2_amd64.deb ...
+Unpacking rsync (3.1.2-1+deb9u2) ...
+Setting up perl-modules-5.24 (5.24.1-3+deb9u7) ...
+Setting up libperl5.24:amd64 (5.24.1-3+deb9u7) ...
+Setting up git-man (1:2.11.0-3+deb9u7) ...
+Setting up less (481-2.1) ...
+Processing triggers for mime-support (3.60) ...
+Setting up libcurl3-gnutls:amd64 (7.52.1-5+deb9u14) ...
+Setting up rsync (3.1.2-1+deb9u2) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/rsync.service → /lib                                                                             /systemd/system/rsync.service.
+Setting up perl (5.24.1-3+deb9u7) ...
+update-alternatives: using /usr/bin/prename to provide /usr/bin/rename (rename)                                                                              in auto mode
+Setting up patch (2.7.5-1+deb9u2) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Processing triggers for systemd (232-25+deb9u12) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up liberror-perl (0.17024-1) ...
+Setting up rename (0.20-4) ...
+update-alternatives: using /usr/bin/file-rename to provide /usr/bin/rename (rena                                                                             me) in auto mode
+Setting up git (1:2.11.0-3+deb9u7) ...
+student-04-3ca90ba882e4@linux-instance:~$ git --version
+git version 2.11.0
+student-04-3ca90ba882e4@linux-instance:~$ mkdir my-git-repo
+student-04-3ca90ba882e4@linux-instance:~$ cd my-git-repo
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git init
+Initialized empty Git repository in /home/student-04-3ca90ba882e4/my-git-repo/.g                                                                             it/
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git config --global user.n                                                                             ame "kiamboon"
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git config --global user.e                                                                             mail "kiamboon@gmail.com"
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ nano README
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README
+
+nothing added to commit but untracked files present (use "git add" to track)
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git add README
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   README
+
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git commit
+[master (root-commit) 55f6be3] This is my first commit!
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ nano README
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README
+
+no changes added to commit (use "git add" and/or "git commit -a")
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git diff README
+diff --git a/README b/README
+index eb6d976..8e569d4 100644
+--- a/README
++++ b/README
+@@ -1 +1,2 @@
+ This is my first repository.
++A repository is a location where all the files of a particular project are stor                                                                             ed.
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git add README
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README
+
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git commit -m "This is my                                                                              second commit."
+[master 4794b55] This is my second commit.
+ 1 file changed, 1 insertion(+)
+student-04-3ca90ba882e4@linux-instance:~/my-git-repo$ git log
+commit 4794b55cf3c84c4b686f929b25cd48d58b0eb456
+Author: kiamboon <kiamboon@gmail.com>
+Date:   Tue Jun 22 12:36:38 2021 +0000
+
+    This is my second commit.
+
+commit 55f6be3959a0d2fce31323186abb077989518861
+Author: kiamboon <kiamboon@gmail.com>
+Date:   Tue Jun 22 12:34:03 2021 +0000
