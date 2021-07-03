@@ -33,8 +33,7 @@
 
 ========================================================================================
 
-# Ultimate Git Cheat Sheet
-
+# Git Cheat Sheet
 
 
 ## Configuring our Git 
