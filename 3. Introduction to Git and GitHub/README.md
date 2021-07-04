@@ -111,9 +111,10 @@
 | $ git remote update | Fetches the most up-to-date objects |
 | $ git fetch | Downloads specific objects |
 | $ git branch -r | Lists remote branches; can be combined with other branch arguments to manage remote branches |
-
+<br>
 
 ## Credit
 * [Coursera - Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github)
 
+	
 [![Back](https://img.shields.io/badge/Back%20to-Course%20Directory-success?style=flat-square)](https://github.com/kiamboon/Google-IT-Automation-with-Python-Professional-Certificate)
