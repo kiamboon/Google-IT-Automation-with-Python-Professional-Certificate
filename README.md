@@ -1,7 +1,7 @@
 # Google IT Automation with Python Professional Certificate
 
 Author: Soh Kiam Boon<br>
-Status: In progress
+![Status](https://img.shields.io/badge/Status:-In%20progress-tomato?style=plastic)
 
 This repository is created to keep track of [Google IT Automation With Python](https://www.coursera.org/professional-certificates/google-it-automation) provided by Coursera. This program is developed by Google and designed to teach how to program with Python and how to use Python to automate common system administration tasks, as well as how to use Git and GitHub, troubleshoot and debug complex problems, and apply automation at scale by using configuration management and the Cloud.
 
