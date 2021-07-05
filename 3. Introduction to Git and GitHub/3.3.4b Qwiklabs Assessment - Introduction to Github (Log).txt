@@ -1,0 +1,102 @@
+Using username "student-04-97c23b588aed".
+Authenticating with public key "imported-openssh-key"
+Linux linux-instance 4.9.0-16-amd64 #1 SMP Debian 4.9.272-1 (2021-06-21) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Jul  4 16:00:43 2021 from 138.75.94.48
+student-04-97c23b588aed@linux-instance:~$ git clone https://github.com/kiamboon/Coursera.git
+Cloning into 'Coursera'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+student-04-97c23b588aed@linux-instance:~$ cd directory_name
+-bash: cd: directory_name: No such file or directory
+student-04-97c23b588aed@linux-instance:~$ ls
+Coursera
+student-04-97c23b588aed@linux-instance:~$ cd Coursera
+student-04-97c23b588aed@linux-instance:~/Coursera$ git clone https://github.com/kiamboon/Coursera.git Coursera
+Cloning into 'Coursera'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+student-04-97c23b588aed@linux-instance:~/Coursera$ git config --global user.name "KB"
+student-04-97c23b588aed@linux-instance:~/Coursera$ git config --global user.email "kiamboon@gmail.com"
+student-04-97c23b588aed@linux-instance:~/Coursera$ nano README.md
+student-04-97c23b588aed@linux-instance:~/Coursera$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Coursera/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+student-04-97c23b588aed@linux-instance:~/Coursera$ git add README.md
+student-04-97c23b588aed@linux-instance:~/Coursera$ git commit
+[main afd294c] I am editing the README file.
+ 1 file changed, 1 insertion(+)
+student-04-97c23b588aed@linux-instance:~/Coursera$ git push origin main
+Username for 'https://github.com': kiamboon
+Password for 'https://kiamboon@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kiamboon/Coursera.git/'
+student-04-97c23b588aed@linux-instance:~/Coursera$ git push origin main
+Username for 'https://github.com': 
+Password for 'https://@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 345 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kiamboon/Coursera.git
+   8f2db81..afd294c  main -> main
+student-04-97c23b588aed@linux-instance:~/Coursera$ nano example.py
+student-04-97c23b588aed@linux-instance:~/Coursera$ git add example.py
+student-04-97c23b588aed@linux-instance:~/Coursera$ git commit
+[main 32d5aad] We will push these changes later in the lab.
+ 1 file changed, 3 insertions(+)
+ create mode 100644 example.py
+
+student-04-97c23b588aed@linux-instance:~/Coursera$ git push origin main
+Username for 'https://github.com': 
+Password for 'https://@github.com':
+To https://github.com/kiamboon/Coursera.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kiamboon/Coursera.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+student-04-97c23b588aed@linux-instance:~/Coursera$ git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), done.
+From https://github.com/kiamboon/Coursera
+ * branch            main       -> FETCH_HEAD
+   eb576d0..a482161  main       -> origin/main
+Updating eb576d0..a482161
+Fast-forward
+ empty-file2 | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 empty-file2
+student-04-97c23b588aed@linux-instance:~/Coursera$ git push origin main
+Username for 'https://github.com': 
+Password for 'https://@github.com':
+Everything up-to-date
+student-04-97c23b588aed@linux-instance:~/Coursera$ nano README.md               student-04-97c23b588aed@linux-instance:~/Coursera$ nano example.py
+student-04-97c23b588aed@linux-instance:~/Coursera$
